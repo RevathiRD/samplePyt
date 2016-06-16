@@ -1,7 +1,6 @@
 jobs: 
-- job:
-  name : api
-  type: manifest
-  steps:
-    - GET resource1 
+  - name : api-test
+    type: manifest
+    steps:
+      - GET: image555-test
     
