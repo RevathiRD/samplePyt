@@ -1,8 +1,0 @@
-resources:
-  - name: image555-test
-    type: image
-    integration: docker_integration
-    source:
-      name: "revathird/sample_node"
-      isPull: true
-      tag: latest
