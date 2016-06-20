@@ -1,6 +1,0 @@
-jobs: 
-  - name : api-test
-    type: manifest
-    steps:
-      - GET: image555-test
-    
