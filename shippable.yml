@@ -15,12 +15,3 @@ python:
 build:
   ci:
     - python --version
-    
-integrations:
-  notifications:
-    - integrationName: ship-issues
-      type: webhook
-      payload:
-        - title=Failure - $REPO_FULL_NAME - $BUILD_NUMBER
-        - body=Shippable Run $BUILD_NUMBER ($BUILD_URL) failed for $COMPARE_URL
-      
