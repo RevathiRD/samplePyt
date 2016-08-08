@@ -17,7 +17,7 @@ build:
     - python --version
 integrations:
   notifications:
-    - integrationName: ship-slack
+    - integrationName: test-slack
       type: slack
       recipients:
         - "#random"
