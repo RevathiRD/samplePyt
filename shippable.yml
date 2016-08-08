@@ -15,3 +15,10 @@ python:
 build:
   ci:
     - python --version
+integrations:
+  notifications:
+    - integrationName: ship-slack
+      type: slack
+      recipients:
+        - "#random"
+      on_success: always
