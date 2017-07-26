@@ -17,10 +17,3 @@ python:
 build:
   ci:
     - python --version
-integrations:
-  notifications:
-    - integrationName: test-slack
-      type: slack
-      recipients:
-        - "#random"
-      on_success: always
