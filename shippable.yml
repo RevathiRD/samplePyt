@@ -24,3 +24,5 @@ integrations:
       recipients:
         - "#random"
       on_success: always
+
+
